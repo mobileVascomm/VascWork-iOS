@@ -1,0 +1,22 @@
+{
+  "name": "VascWorkiOS",
+  "version": "0.1.0",
+  "summary": "A short description of VascWorkiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mobile.vascomm@gmail.com/VascWorkiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mobile.vascomm@gmail.com": "noizar.jr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mobile.vascomm@gmail.com/VascWorkiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VascWorkiOS/Classes/**/*"
+}
