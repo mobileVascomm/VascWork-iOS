@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VascWorkiOS'
   s.version          = '1.0.1'
-  s.summary          = 'code architecture and utils '
+  s.summary          = 'code architecture and utils'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'VascWorkiOS/Classes/**/*.swift''
+  s.source_files = 'VascWorkiOS/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'VascWorkiOS' => ['VascWorkiOS/Assets/*.png']
