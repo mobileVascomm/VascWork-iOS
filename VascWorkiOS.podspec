@@ -31,13 +31,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'VascWorkiOS/Classes/**/*'
+  s.source_files = 'VascWorkiOS/Classes/**/*.swift''
   
   # s.resource_bundles = {
   #   'VascWorkiOS' => ['VascWorkiOS/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
+   s.frameworks = ['Foundation','UIKit']
   # s.dependency 'AFNetworking', '~> 2.3'
 end

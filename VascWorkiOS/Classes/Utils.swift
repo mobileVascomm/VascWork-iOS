@@ -9,7 +9,7 @@
 import Foundation
 
 
-func convertToRupiahCurrency(nominal:Double,useCurrency:Bool = false) -> String {
+public func convertToRupiahCurrency(nominal:Double,useCurrency:Bool = false) -> String {
     let numberFormat = NumberFormatter()
     
     numberFormat.numberStyle = .decimal

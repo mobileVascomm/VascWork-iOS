@@ -15,10 +15,14 @@
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		408C1E356B541A85B2A8BEA444B8CB55 /* Pods-VascWorkiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA9CB948E20AE9973000435F503AD45 /* Pods-VascWorkiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4277B11F2403AD4900ACD412 /* Architecture in Resources */ = {isa = PBXBuildFile; fileRef = 4277B11B2403AD4900ACD412 /* Architecture */; };
-		4277B1202403AD4900ACD412 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4277B11C2403AD4900ACD412 /* Utils.swift */; };
-		4277B1212403AD4900ACD412 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 4277B11D2403AD4900ACD412 /* Extension */; };
-		4277B1222403AD4900ACD412 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 4277B11E2403AD4900ACD412 /* View */; };
+		42289F8C2404C47A00B68D22 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F8B2404C47A00B68D22 /* Utils.swift */; };
+		42289F992404C68400B68D22 /* ModuleSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F8E2404C68400B68D22 /* ModuleSupport.swift */; };
+		42289F9A2404C68400B68D22 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F8F2404C68400B68D22 /* Module.swift */; };
+		42289F9B2404C68400B68D22 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F912404C68400B68D22 /* ButtonExtension.swift */; };
+		42289F9C2404C68400B68D22 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F922404C68400B68D22 /* ViewExtension.swift */; };
+		42289F9D2404C68400B68D22 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F932404C68400B68D22 /* StringExtension.swift */; };
+		42289F9E2404C68400B68D22 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F942404C68400B68D22 /* TextFieldExtension.swift */; };
+		42289F9F2404C68400B68D22 /* TextFieldFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42289F962404C68400B68D22 /* TextFieldFormater.swift */; };
 		698D91EA47280A759894F0978DF9188C /* Pods-VascWorkiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05922F1A0A447D1925F49E7F71449E6F /* Pods-VascWorkiOS_Tests-dummy.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
@@ -78,10 +82,14 @@
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		4277B11B2403AD4900ACD412 /* Architecture */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Architecture; sourceTree = "<group>"; };
-		4277B11C2403AD4900ACD412 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		4277B11D2403AD4900ACD412 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
-		4277B11E2403AD4900ACD412 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		42289F8B2404C47A00B68D22 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = VascWorkiOS/Classes/Utils.swift; sourceTree = "<group>"; };
+		42289F8E2404C68400B68D22 /* ModuleSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleSupport.swift; sourceTree = "<group>"; };
+		42289F8F2404C68400B68D22 /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		42289F912404C68400B68D22 /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		42289F922404C68400B68D22 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		42289F932404C68400B68D22 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		42289F942404C68400B68D22 /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		42289F962404C68400B68D22 /* TextFieldFormater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldFormater.swift; sourceTree = "<group>"; };
 		556AD3C9A8E28615D99AF86C809AA76C /* Pods-VascWorkiOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VascWorkiOS_Tests-Info.plist"; sourceTree = "<group>"; };
 		55DE5571B5328F7DD0941332A311678D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,15 +209,35 @@
 			path = "Example/Pods/Target Support Files/VascWorkiOS";
 			sourceTree = "<group>";
 		};
-		4277B11A2403ACFB00ACD412 /* Classes */ = {
+		42289F8D2404C68400B68D22 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				4277B11B2403AD4900ACD412 /* Architecture */,
-				4277B11D2403AD4900ACD412 /* Extension */,
-				4277B11C2403AD4900ACD412 /* Utils.swift */,
-				4277B11E2403AD4900ACD412 /* View */,
+				42289F8E2404C68400B68D22 /* ModuleSupport.swift */,
+				42289F8F2404C68400B68D22 /* Module.swift */,
 			);
-			path = Classes;
+			name = Architecture;
+			path = VascWorkiOS/Classes/Architecture;
+			sourceTree = "<group>";
+		};
+		42289F902404C68400B68D22 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42289F912404C68400B68D22 /* ButtonExtension.swift */,
+				42289F922404C68400B68D22 /* ViewExtension.swift */,
+				42289F932404C68400B68D22 /* StringExtension.swift */,
+				42289F942404C68400B68D22 /* TextFieldExtension.swift */,
+			);
+			name = Extension;
+			path = VascWorkiOS/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		42289F952404C68400B68D22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42289F962404C68400B68D22 /* TextFieldFormater.swift */,
+			);
+			name = View;
+			path = VascWorkiOS/Classes/View;
 			sourceTree = "<group>";
 		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
@@ -322,7 +350,10 @@
 		CD2CA85E0E03E9991645725BAB541DCF /* VascWorkiOS */ = {
 			isa = PBXGroup;
 			children = (
-				4277B11A2403ACFB00ACD412 /* Classes */,
+				42289F8D2404C68400B68D22 /* Architecture */,
+				42289F902404C68400B68D22 /* Extension */,
+				42289F952404C68400B68D22 /* View */,
+				42289F8B2404C47A00B68D22 /* Utils.swift */,
 				C0C922B61DEB0072D4A97D31B5866A12 /* Pod */,
 				1CBB1AB49193CA2B40258143BC49126F /* Support Files */,
 			);
@@ -498,6 +529,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					880BF148A16BDDF081FC4DCAF14B2A5D = {
+						LastSwiftMigration = 1110;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -546,9 +582,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4277B1212403AD4900ACD412 /* Extension in Resources */,
-				4277B11F2403AD4900ACD412 /* Architecture in Resources */,
-				4277B1222403AD4900ACD412 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,8 +600,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42289F9C2404C68400B68D22 /* ViewExtension.swift in Sources */,
+				42289F9E2404C68400B68D22 /* TextFieldExtension.swift in Sources */,
+				42289F9F2404C68400B68D22 /* TextFieldFormater.swift in Sources */,
+				42289F9D2404C68400B68D22 /* StringExtension.swift in Sources */,
+				42289F992404C68400B68D22 /* ModuleSupport.swift in Sources */,
+				42289F9A2404C68400B68D22 /* Module.swift in Sources */,
+				42289F9B2404C68400B68D22 /* ButtonExtension.swift in Sources */,
 				C8E1134CF2B0DD616250D92F762DAF23 /* VascWorkiOS-dummy.m in Sources */,
-				4277B1202403AD4900ACD412 /* Utils.swift in Sources */,
+				42289F8C2404C47A00B68D22 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1AE8F317BDFCD3667A699DE66A8422F /* VascWorkiOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -678,6 +719,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -910,6 +952,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1AE8F317BDFCD3667A699DE66A8422F /* VascWorkiOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
